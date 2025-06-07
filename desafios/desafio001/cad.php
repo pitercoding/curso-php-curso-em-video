@@ -11,8 +11,8 @@
         <h1>Resultado Final</h1>
         <?php 
             $n = $_GET["numero"];
-            $antecessor = $n-1;
-            $sucessor = $n+1;
+            //$antecessor = $n-1;
+            //$sucessor = $n+1;
 
             echo "<p>O número escolhido foi <strong>$n</strong>.</p>";
             echo "<p>O seu <i>antecessor</i> é $antecessor.</p>";
