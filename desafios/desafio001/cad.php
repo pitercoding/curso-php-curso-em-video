@@ -9,16 +9,17 @@
 <body>
     <main>
         <h1>Resultado Final</h1>
-        <?php 
-            $n = $_GET["numero"];
-            //$antecessor = $n-1;
-            //$sucessor = $n+1;
-
-            echo "<p>O número escolhido foi <strong>$n</strong>.</p>";
-            echo "<p>O seu <i>antecessor</i> é $antecessor.</p>";
-            echo "<p>O seu <i>sucessor</i> é $sucessor.</p>";
-        ?>
-        <button><a href="javascript:history.go(-1)">Voltar</a></button>
+        <p>
+            <?php
+                $n = $_GET["numero"];
+                $antecessor = $n-1;
+                $sucessor = $n+1;
+                echo "O número escolhido foi <strong>$n</strong>.";
+                echo "<br>O seu <i>antecessor</i> é $antecessor.";
+                echo "<br>O seu <i>sucessor</i> é $sucessor.";
+            ?>
+        </p>
+        <button onclick="javascript:history.go(-1)">&#x2B05; Voltar</button>
     </main>
 </body>
 </html>
