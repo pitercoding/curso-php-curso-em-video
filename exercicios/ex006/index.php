@@ -18,7 +18,7 @@
             <label for="v1">Valor 1</label>
             <input type="number" name="v1" id="idv1" step="0.1" value="<?=$v1?>">
             <label for="v2">Valor 2</label>
-            <input type="number" name="v2" id="idv2" step="0.001" value="<?=$v2?>">
+            <input type="number" name="v2" id="idv2" step="0.01" value="<?=$v2?>">
             <input type="submit" value="Somar">
         </form>
     </main>
