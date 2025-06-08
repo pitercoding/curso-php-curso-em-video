@@ -10,15 +10,15 @@
     <main>
         <h1>Analisador de Número Real</h1>
         <?php 
-            $vReal = (float) $_GET["numero"];
+            $vReal = (float) $_REQUEST["numero"];
             $inteira = (int) $vReal;
             $fracionaria = $vReal - $inteira;
 
-            echo "<p>Analisando o número <strong>$vReal</strong> informado pelo usuário:</p>";
-            echo "<p>A parte inteira do número é <strong>$inteira</strong>.</p>";
-            echo "<p>A parte fracionária do número é <strong>$fracionaria</strong>.</p>";
+            echo "<p>Analisando o número <strong>" . number_format($vReal, 3, "," , ".") . "</strong> informado pelo usuário:</p>";
+            echo "<ul><li> A parte inteira do número é <strong>". number_format($inteira, 0, "," , ".") . "</strong>.</li>";
+            echo "<li>A parte fracionária do número é <strong>" . number_format($fracionaria, 3 , "," , ".") . "</strong>.</li></ul>";
         ?>
-        <button><a href="javascript:history.go(-1)">Voltar</a></button>
+        <button onclick="javascript:history.go(-1)">Voltar</button>
     </main>
 </body>
 </html>
