@@ -1,4 +1,4 @@
-# 📘 Curso PHP Moderno - Repositório Oficial
+# 📘 Curso PHP Moderno - Curso em Vídeo
 
 Bem-vindo ao repositório **CursoPHP**!  
 Este projeto foi criado para acompanhar o **Curso Gratuito de PHP Moderno**, um guia completo e atualizado para quem quer dominar uma das linguagens mais utilizadas no desenvolvimento web.
